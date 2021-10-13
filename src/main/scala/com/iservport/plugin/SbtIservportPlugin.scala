@@ -75,7 +75,8 @@ object SbtIservportPlugin extends AutoPlugin {
         "org.projectlombok" % "lombok" % "1.18.12",
         "com.google.guava" % "guava" % "29.0-jre",
         "io.springfox" % "springfox-swagger2" % "2.9.2",
-        "io.springfox" % "springfox-swagger-ui" % "2.9.2"
+        "io.springfox" % "springfox-swagger-ui" % "2.9.2",
+        "com.fasterxml.jackson.dataformat" % "jackson-dataformat-csv" % "2.13.0"
       )
     }
 
