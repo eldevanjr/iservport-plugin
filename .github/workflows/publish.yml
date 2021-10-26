@@ -21,4 +21,4 @@ jobs:
       - name: PUBLISH
         run: sbt test publish
         env:
-         PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+         PUBLISH_SECRET: ${{ secrets.PUBLISH_SECRET }}
