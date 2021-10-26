@@ -76,7 +76,10 @@ object SbtIservportPlugin extends AutoPlugin {
         "com.google.guava" % "guava" % "29.0-jre",
         "io.springfox" % "springfox-swagger2" % "2.9.2",
         "io.springfox" % "springfox-swagger-ui" % "2.9.2",
-        "com.fasterxml.jackson.dataformat" % "jackson-dataformat-csv" % "2.13.0"
+        "com.fasterxml.jackson.dataformat" % "jackson-dataformat-csv" % "2.13.0",
+        "com.fasterxml.jackson.core" % "jackson-databind" % "2.13.0"
+
+
       )
     }
 
